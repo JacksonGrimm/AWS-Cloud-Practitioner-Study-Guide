@@ -122,3 +122,59 @@ AWS Snowball is a suite of physical devices designed to transfer large amounts o
   - **Features**: A secure, temperature-controlled, GPS-tracked container that ensures the physical safety and security of your data during transport.
   - **Storage Capacity**: Capable of transporting up to 100PB of data in a single shipment, making it suitable for massive data lake migrations, large-scale backup and recovery, and major data center shutdowns or moves.
 
+## AWS Security
+
+### WAF (Web Application Firewall)
+
+- Allows users to create rules to filter web traffic, including IP addresses, request headers, and custom URIs.
+- Provides built-in protections against SQL injection and XSS attacks.
+- Offers control to block or rate limit bots.
+
+### Key Management Service (KMS)
+
+- Service for creating and managing cryptographic keys.
+- Enables encryption to protect data.
+
+### Shield
+
+- DDoS protection service for applications running on AWS.
+- Comes in two tiers: Standard (sufficient for most DDoS attacks) and Advanced (for large-scale, sophisticated attacks).
+- AWS Shield Standard is included at no extra cost.
+
+### IAM (Identity and Access Management)
+
+- Manage who or what can access services and resources in AWS.
+- Centrally manage fine-grained permissions and analyze access.
+- **Roles**: Collections of permissions for temporary access to resources.
+- **Groups**: Manage roles and policies for a collection of users simultaneously.
+- **Policies**: Documents defining permitted API actions on AWS services.
+
+## AWS Database Storage
+
+### DynamoDB
+
+- Serverless NoSQL database.
+- Fast and scalable with single-digit millisecond response times.
+- Maintenance-free with no downtime.
+- Pay-for-what-you-use pricing model.
+
+### RDS (Relational Database Service)
+
+- AWS's solution for relational databases.
+- Supports various SQL engines including PostgreSQL, MySQL, SQL Server, Oracle, etc.
+
+### Aurora
+
+- Offers serverless, autoscaling, and provisioning for relational database services.
+- Supports MySQL and PostgreSQL compatibility.
+
+### DMS (Database Migration Service)
+
+- Assists with planning, assessing, converting, and migrating databases to AWS.
+- Simple to use with no installation required.
+- Minimal downtime, as migration can occur while the source database is operational.
+
+### Accelerators
+
+- **DAX (DynamoDB Accelerator)**: Caching service for DynamoDB to improve lookup times from milliseconds to microseconds.
+
