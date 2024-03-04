@@ -178,3 +178,35 @@ AWS Snowball is a suite of physical devices designed to transfer large amounts o
 
 - **DAX (DynamoDB Accelerator)**: Caching service for DynamoDB to improve lookup times from milliseconds to microseconds.
 
+## AWS Monitoring Services
+
+### Amazon CloudWatch
+
+Amazon CloudWatch is a monitoring service that provides a detailed view of resource utilization, application performance, and operational health. It enables you to collect and track metrics, collect and monitor log files, set alarms, and automatically react to changes in your AWS resources.
+
+### AWS CloudTrail
+
+AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account. It records all API calls made on your account, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services. This log includes details of who made the call, the source IP address, the time of the call, and more.
+
+### AWS Trusted Advisor
+
+AWS Trusted Advisor is an online tool that offers you guidance to reduce cost, increase performance, and improve security by optimizing your AWS environment. It provides recommendations regarding savings, security, fault tolerance, performance, and service limits.
+
+## AWS AI Services
+
+### Amazon Lex
+
+Amazon Lex is a service for building conversational interfaces into any application using voice and text. It provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text, and natural language understanding (NLU) to recognize the intent of the text, to enable you to build applications with highly engaging user experiences and lifelike conversational interactions.
+
+### Amazon Polly
+
+Amazon Polly is a cloud service that converts text into lifelike speech. Polly lets you create applications that talk, enabling you to build entirely new categories of speech-enabled products.
+
+### Amazon SageMaker
+
+Amazon SageMaker is a fully managed service that provides developers and data scientists the ability to build, train, and deploy machine learning models quickly. SageMaker removes the heavy lifting from each step of the machine learning process to make it easier to develop high-quality models.
+
+### Amazon Textract
+
+Amazon Textract is a machine learning service that automatically extracts text and data from scanned documents without the need for manual review or custom code. It goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables.
+
